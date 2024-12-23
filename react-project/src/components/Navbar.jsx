@@ -5,20 +5,13 @@ import './Navbar.css';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="navbar-logo">
-      </div>
-      <ul className="navbar-links">
-        <li>
-          <Link to="/anuncios">Anúncios</Link>
-        </li>
-        <li>
-          <Link to="/login">Login</Link>
-        </li>
-        <li>
-          <Link to="/cadastro">Cadastro</Link>
-        </li>
-      </ul>
-    </nav>
+    <ul className="navbar-links">
+      <li><a href="/anuncios">Anúncios</a></li>
+      <li><a href="/login">Login</a></li>
+      <li><a href="/cadastro">Cadastro</a></li>
+    </ul>
+  </nav>
+  
   );
 };
 
