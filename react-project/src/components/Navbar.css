@@ -1,20 +1,56 @@
 .navbar {
-  padding: 10px;
+  padding: 10px 0; 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%; 
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #333; 
+}
+
+.navbar-logo a {
+  color: #333; 
+  text-decoration: none;
 }
 
 .navbar-links {
-  display: flex; 
-  list-style: none; 
-  padding: 0;
+  list-style: none;
+  display: flex;
   margin: 0;
-  gap: 20px; 
-}
-
-.navbar-links li a {
-  text-decoration: none; 
-  color: inherit; 
+  padding: 0; 
+  width: auto; 
 }
 
 .navbar-links li {
-  padding: 0; 
+  margin-left: 10px; 
+}
+
+.navbar-links a {
+  color: #333; 
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-links a:hover {
+  color: #0a4404;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-links {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .navbar-links li {
+    margin: 10px 0;
+  }
 }
