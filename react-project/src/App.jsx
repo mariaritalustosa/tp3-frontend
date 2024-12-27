@@ -1,10 +1,11 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Anuncios from './pages/Anuncios';
-
+import BuscaPage from './pages/BuscaPage';
 const App = () => {
   return (
     <Router>
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/anuncios" element={<Anuncios />} />
         <Route path="/login" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
+        <Route path="/busca" element={<BuscaPage/>}/>
       </Routes>
     </Router>
   );

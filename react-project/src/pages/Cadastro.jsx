@@ -1,20 +1,22 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './Cadastro.css';
 
 const Cadastro = () => {
   return (
-    <div>
+    <div className="cadastro-container">
       <h1>Cadastro</h1>
-      <form>
+      <form className="cadastro-form">
         <label htmlFor="nome">Nome:</label>
         <input type="text" id="nome" placeholder="Digite seu nome" required />
-        <br />
+
         <label htmlFor="email">E-mail:</label>
         <input type="email" id="email" placeholder="Digite seu e-mail" required />
-        <br />
+
         <label htmlFor="password">Senha:</label>
         <input type="password" id="password" placeholder="Digite sua senha" required />
-        <br />
-        <button type="submit">Cadastrar</button>
+
+        <button type="submit" className="cadastro-button">Cadastrar</button>
       </form>
     </div>
   );

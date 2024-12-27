@@ -11,6 +11,7 @@ const Navbar = () => {
       <li><a href='/favoritos'>Favoritos</a></li>
       <li><a href="/login">Login</a></li>
       <li><a href="/cadastro">Cadastro</a></li>
+      <li><a href="/buscar">Buscar</a></li>
     </ul>
   </nav>
   
