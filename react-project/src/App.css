@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.centered-heading {
+  text-align: center;   
+  font-size: 4rem;       
+  color: rgb(2, 2, 44);           
+  margin-top: 50px;      
+  font-weight: bold;   
+  font-family: 'Raleway', sans-serif;
+} 
