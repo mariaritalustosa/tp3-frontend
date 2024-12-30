@@ -8,8 +8,8 @@ const BuscaPage = () => {
   const handleBuscaPorBairro = () => {
     setLoading(true);
     const dados = [
-      { id: 1, titulo: 'República no Centro', descricao: 'Descrição sobre a república 1' },
-      { id: 2, titulo: 'República na Zona Norte', descricao: 'Descrição sobre a república 2' },
+      { id: 1, titulo: 'República no Bairro São Pedro', descricao: 'Descrição sobre a república 1' },
+      { id: 2, titulo: 'República no Bairro Ininga', descricao: 'Descrição sobre a república 2' },
     ];
     setResultados(dados);
     setLoading(false);
