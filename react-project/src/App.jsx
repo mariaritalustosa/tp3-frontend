@@ -7,6 +7,7 @@ import Login from './pages/Login';
 import Cadastro from './pages/Cadastro';
 import Anuncios from './pages/Anuncios';
 import BuscaPage from './pages/BuscaPage';
+import ChatPage from './pages/ChatPage';
 const App = () => {
   return (
     <Router>
@@ -17,6 +18,7 @@ const App = () => {
         <Route path="/login" element={<Login />} />
         <Route path="/cadastro" element={<Cadastro />} />
         <Route path="/busca" element={<BuscaPage/>}/>
+        <Route path="/chat" element={<ChatPage/>}/>
       </Routes>
     </Router>
   );
