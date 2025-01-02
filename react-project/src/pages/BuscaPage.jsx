@@ -32,7 +32,7 @@ const BuscaPage = () => {
             marginRight: '10px',
             width: '300px',
             borderRadius: '5px',
-            border: '2px solid #004c99',
+            border: '2px solidrgb(2, 2, 44)',
             boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
           }}
         />

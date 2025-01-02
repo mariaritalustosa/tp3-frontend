@@ -14,7 +14,8 @@ const Message = ({ text, sender }) => {
           display: 'inline-block',
           padding: '10px',
           borderRadius: '10px',
-          backgroundColor: isSender ? '#d1e7dd' : '#f8d7da',
+          backgroundColor: isSender ? 'white' : 'rgb(2, 2, 44)',
+          color: isSender ? 'black' : 'white',
           maxWidth: '70%',
         }}
       >
@@ -25,3 +26,4 @@ const Message = ({ text, sender }) => {
 };
 
 export default Message;
+
