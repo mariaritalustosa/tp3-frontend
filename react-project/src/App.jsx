@@ -8,7 +8,6 @@ import Cadastro from './pages/Cadastro';
 import Anuncios from './pages/Anuncios';
 import BuscaPage from './pages/BuscaPage';
 import ChatPage from './pages/ChatPage';
-import AnuncioDetails from './pages/AnuncioDetails';
 const App = () => {
   return (
     <Router>
